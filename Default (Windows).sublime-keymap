@@ -17,6 +17,9 @@
     "keys": ["ctrl+shift+b", "e", "c"],
     "command": "browser_integration_execute"
 }, {
+    "keys": ["ctrl+shift+b", "e", "j"],
+    "command": "browser_integration_jscad"
+}, {
     "keys": ["ctrl+shift+b", "v", "c"],
     "command": "browser_integration_stylesheets"
 }, {

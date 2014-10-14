@@ -4,6 +4,7 @@ from .browser_integration_launch import *
 from .browser_integration_reload import *
 from .browser_integration_navigate import *
 from .browser_integration_execute import *
+from .browser_integration_jscad import *
 from .browser_integration_stylesheets import *
 from .browser_integration_select import *
 from .browser_integration_selectint import *
@@ -26,6 +27,7 @@ class BrowserIntegrationMainMenuCommand(sublime_plugin.ApplicationCommand):
             BrowserIntegrationNavigateCommand,
             ("Execute", "Execute snippets of code in the browser.", [
                 BrowserIntegrationExecuteCommand,
+		BrowserIntegrationJSCADCommand,
             ]),
             ("View", "View and modify text data of current document", [
                 BrowserIntegrationStylesheetsCommand,

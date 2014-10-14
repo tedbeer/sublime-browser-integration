@@ -20,6 +20,10 @@
         "command": "browser_integration_execute"
     },
     {
+        "caption": "Browser Integration: Execute JSCAD code",
+        "command": "browser_integration_jscad"
+    },
+    {
         "caption": "Browser Integration: View loaded CSS stylesheets",
         "command": "browser_integration_stylesheets"
     },
